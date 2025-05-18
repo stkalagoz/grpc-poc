@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="grpcclient" />
-        <module name="grpserver" />
+        <module name="grpcserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,7 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="grpc-poc" options="-parameters" />
       <module name="grpcclient" options="-parameters" />
-      <module name="grpserver" options="-parameters" />
+      <module name="grpcserver" options="-parameters" />
     </option>
   </component>
 </project>
