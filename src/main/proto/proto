@@ -2,16 +2,18 @@ syntax = "proto3";
 
 option java_multiple_files = true;
 option java_package = "com.example.grpc";
-option java_outer_classname = "GreetingProto";
+option java_outer_classname = "ProductProto";
 
-service GreetingService {
-  rpc Greet (GreetingRequest) returns (GreetingResponse);
+service ProductService {
+  rpc sendProduct(ProductRequest) returns (ProductResponse);
 }
 
-message GreetingRequest {
-  string name = 1;
+message ProductRequest {
+  string id = 1;
+  string name = 2;
+  double price = 3;
 }
 
-message GreetingResponse {
+message ProductResponse {
   string message = 1;
 }

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: grpc-poc
+grpc:
+  client:
+    product-service:
+      address: 'static://localhost:9090'
+      negotiation-type: plaintext
+server:
+  port: 8080
