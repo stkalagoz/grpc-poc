@@ -2,4 +2,8 @@ grpc:
   client:
     productService:
       address: 'static://localhost:9090'
-      negotiationType: plaintext
+      negotiationType: TLS
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+
+

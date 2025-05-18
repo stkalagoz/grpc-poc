@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="grpc-poc" />
+        <module name="grpcclient" />
+        <module name="grpserver" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="grpc-poc" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="grpc-poc" options="-parameters" />
+      <module name="grpcclient" options="-parameters" />
+      <module name="grpserver" options="-parameters" />
     </option>
   </component>
 </project>
