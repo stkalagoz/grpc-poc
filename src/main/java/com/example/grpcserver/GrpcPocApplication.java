@@ -1,4 +1,4 @@
-package com.example.grpc_poc;
+package com.example.grpcserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

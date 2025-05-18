@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.example.grpc-poc' is invalid and this project uses 'com.example.grpc_poc' instead.
+* The original package name 'com.example.grpc-poc' is invalid and this project uses 'com.example.grpcserver' instead.
 
 # Getting Started
 
