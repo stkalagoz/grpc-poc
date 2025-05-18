@@ -2,6 +2,7 @@ package com.example.grpcserver;
 
 import com.example.grpc.ProductRequest;
 import com.example.grpc.ProductResponse;
+import com.example.grpc.ProductServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 
