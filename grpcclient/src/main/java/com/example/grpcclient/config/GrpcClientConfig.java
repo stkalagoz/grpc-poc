@@ -14,6 +14,8 @@ import java.io.IOException;
 @Configuration
 public class GrpcClientConfig {
 
+    //test1
+
     @Bean
     public GrpcChannelConfigurer trustCertsConfigurer() {
         return (channelBuilder, name) -> {
