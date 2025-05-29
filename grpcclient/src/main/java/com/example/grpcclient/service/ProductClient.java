@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProductClient {
 
+    //test1
+
     @GrpcClient("productService")
     private ProductServiceGrpc.ProductServiceBlockingStub productStub;
 
